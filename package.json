@@ -1,4 +1,5 @@
 {
+  "home": "https://joseuribeh98.github.io/lazy-Loading_DOM-Manipulation",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
