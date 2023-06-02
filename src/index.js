@@ -1,3 +1,5 @@
+import { registerImg } from "./lazy";
+
 const API = 'https://randomfox.ca/images'
 const appContainer = document.getElementById("app");
 const max = 122
@@ -22,6 +24,7 @@ const createImgNode = (urlApi) => {
 const createImg = () => {
     const newImg = createImgNode(API)
     appContainer.appendChild(newImg);
+    registerImg(newImg)
 }
 
 addButton.addEventListener('click', createImg)
