@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: 'https://joseuribeh98.github.io/lazy-Loading_DOM-Manipulation',
   },
 }
